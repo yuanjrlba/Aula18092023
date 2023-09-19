@@ -1,0 +1,132 @@
+public class  Questão1 {
+    public static void main() {
+        System.out.println("Eu já sei programar!!!!");
+    }
+}
+
+import java.util.Scanner;
+public class Questão2 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        String usuário;
+        System.out.println("Digite seu nome ");
+        usuário = scanner.nextLine ();
+        System.out.println(usuário + "sabe programar!!! ");
+        
+    }
+}
+
+import java.util.Scanner;
+public class Questão3 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int numero;
+        System.out.println("Digite um número: ");
+        numero = scanner.nextInt();
+        System.out.println("Você digitou o número: " + numero);
+        
+    }
+}
+
+import java.util.Scanner;
+public class Questão4 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int numero;
+        int sucessor;
+        int antecessor;
+        System.out.println("Digite um número: ");
+        numero = scanner.nextInt();
+        antecessor = numero-1;
+        sucessor = numero+1;
+        System.out.println("O sucessor do seu número é: " + sucessor);
+        System.out.println("O antecessor do seu número é: " + antecessor);
+    }
+}
+
+import java.util.Scanner;
+public class Questão5 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int numero1;
+        int numero2;
+        int soma;
+        int diferença;
+        System.out.println("Digite um número: ");
+        numero1 = scanner.nextInt();
+        System.out.println("Digite outro número: ");
+        numero2 = scanner.nextInt();
+        soma = numero1 + numero2;
+        diferença = numero1 - numero2;
+        System.out.println("A soma dos seus números é: " + soma);
+        System.out.println("A diferença dos seus números é: " + diferença);
+    }
+}
+
+import java.util.Scanner;
+public class Questão6 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int numero;
+        int perimetro;
+        int area;
+        System.out.println("Digite um número de um lado de um quadrado: ");
+        numero = scanner.nextInt();
+        perimetro = numero*4;
+        area = numero*numero;
+        
+        System.out.println("O perímetro de acordo com seu número é: " + perimetro);
+        System.out.println("A área de acordo com seu número é: " + area);
+    }
+}
+
+import java.util.Scanner;
+public class Questão7 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        float altura;
+        float comprimento;
+        float iptu;
+        double iptu2;
+        System.out.println("Digite a altura de um terreno retangular: ");
+        altura = scanner.nextFloat();
+        System.out.println("Digite o comprimento de um terreno retangular: ");
+        comprimento = scanner.nextFloat();
+        iptu =  altura * comprimento;
+        iptu2 = iptu * 0.29;
+        System.out.println("O iptu a ser pago neste terreno é: " + iptu2);
+    }
+    
+}
+
+import java.util.Scanner;
+public class Questão8 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+        
+        int idade;
+        int meses;
+        int dias;
+        int horas;
+        int minutos;
+        int segundos;
+        System.out.println("Digite sua idade: ");
+        idade = scanner.nextInt();
+        meses = idade * 12;
+        dias = idade * 365;
+        horas = dias * 24;
+        minutos = horas * 60;
+        segundos = minutos * 60;
+        System.out.println("Você viveu: " + meses + " meses");
+        System.out.println("Você viveu: " + dias + " dias");
+        System.out.println("Você viveu: " + horas + " horas");
+        System.out.println("Você viveu: " + minutos + " minutos");
+        System.out.println("Você viveu: " + segundos + " segundos");
+    }
+}
